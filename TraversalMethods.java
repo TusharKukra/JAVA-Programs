@@ -8,7 +8,7 @@ public class TraverseExample {
 	public static void main(String[] args) {
 		
 		// There are several methods for traversal of any type of collection:
-		// i.e : Iterator, ListIterator, Enumeration, forEach method, for each loop.
+		// i.e : ListIterator, Enumeration, forEach method, for each loop.
 		
 		ArrayList<String> names = new ArrayList<String>();
 		names.add("Tata");
@@ -67,5 +67,17 @@ public class TraverseExample {
 		
 		System.out.println("----------------Enumeration------------------");
 		// Enum can only be done on Vector
+		
+		
+		
+		// Sorting of Elements
+		System.out.println("Sorting of Elements: ");
+		TreeSet<String> set = new TreeSet<>();
+		set.addAll(names);
+		
+		// Traversing using forEach
+		set.forEach(e->{
+			System.out.println(e);
+		});
 	}
 }
