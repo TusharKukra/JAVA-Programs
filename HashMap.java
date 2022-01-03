@@ -27,5 +27,10 @@ public class Map {
 			System.out.println(key+" -> "+value);
 		});
 		
+		
+		// To get single element (using Key)
+		System.out.println(hm.get("ABC"));
+		
+		
 	}
 }
