@@ -1,1 +1,1 @@
-# JAVA Programs
+# Java Programs
