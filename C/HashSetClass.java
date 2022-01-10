@@ -10,31 +10,31 @@ public class HashSetClass {
 		
 		// T.C : O(1)
 		
-		Set<Integer> chahatSet = new HashSet<>();
+		Set<Integer> cSet = new HashSet<>();
 		
 		// Add:
-		chahatSet.add(4);
-		chahatSet.add(6);
-		chahatSet.add(1);
-		chahatSet.add(2);
-		chahatSet.add(99);
+		cSet.add(4);
+		cSet.add(6);
+		cSet.add(1);
+		cSet.add(2);
+		cSet.add(99);
 		
-		chahatSet.add(1);
+		cSet.add(1);
 		
-		System.out.println(chahatSet);
+		System.out.println(cSet);
 		
 		// remove:
-		chahatSet.remove(1);
-		System.out.println(chahatSet);
+		cSet.remove(1);
+		System.out.println(cSet);
 		
 		// Contains:
-		System.out.println(chahatSet.contains(2));
+		System.out.println(cSet.contains(2));
 		
 		// IsEmpty
-		System.out.println(chahatSet.isEmpty());
+		System.out.println(cSet.isEmpty());
 		
 		// Set Size
-		System.out.println(chahatSet.size());
+		System.out.println(cSet.size());
 		
 	}
 	
