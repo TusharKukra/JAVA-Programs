@@ -1,6 +1,6 @@
 Step 1: Load the driver
 
-Class.forName("com.mysql.jdbc.Driver")
+Class.forName("com.mysql.cj.jdbc.Driver")
 
 
 Step 2: Create a Connection (using DriverManager static method getConnection)
