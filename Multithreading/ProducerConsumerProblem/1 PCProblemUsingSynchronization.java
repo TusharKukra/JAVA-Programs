@@ -1,4 +1,3 @@
-package com.tk.learnThread;
 
 /**
  * Producer Consumer Problem:  (here we will study about Synchronized, Inter-thread communication
